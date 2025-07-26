@@ -35,5 +35,9 @@ public class ModBlock {
     public static final Block REACTOR_0 = register("reactor_0", Block::new, AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK), true);
     public static final Block REACTOR_1 = register("reactor_1", Block::new, AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK), true);
     public static final Block REACTOR_2 = register("reactor_2", Block::new, AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK), true);
+    public static final Block P1 = register("p1", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P2 = register("p2", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P3 = register("p3", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P4 = register("p4", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
     public static void initialize() {}
 }

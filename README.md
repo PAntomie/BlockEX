@@ -1,0 +1,1 @@
+Except for textures, the rest is open source under GPLv3

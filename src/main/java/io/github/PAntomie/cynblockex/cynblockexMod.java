@@ -18,6 +18,6 @@ public class cynblockexMod implements ModInitializer {
 		ModBlock.initialize();
 		ModItem.initialize();
 		ModGroup.initialize();
-		LOGGER.info("C.Y.N. BlockEx Mod Loaded");
+		LOGGER.info("C.Y.N. BlockEX Mod Loaded");
 	}
 }
