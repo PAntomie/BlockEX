@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "io.github.PAntomie.cynblockex.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"cynblockexMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

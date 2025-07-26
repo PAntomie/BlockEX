@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "cynblockex",
+	"version": "${version}",
+	"name": "C.Y.N. BlockEX",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Antomie-P"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/PAntomie/BlockEX-D"
+	},
+	"license": "LGPLv3",
+	"icon": "assets/cynblockex/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.PAntomie.cynblockex.cynblockexMod"
+		],
+		"client": [
+			"io.github.PAntomie.cynblockex.cynblockexClient"
+		]
+	},
+	"mixins": [
+		"cynblockex.mixins.json",
+		{
+			"config": "cynblockex.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
