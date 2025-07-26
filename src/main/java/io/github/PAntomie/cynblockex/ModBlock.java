@@ -39,5 +39,13 @@ public class ModBlock {
     public static final Block P2 = register("p2", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
     public static final Block P3 = register("p3", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
     public static final Block P4 = register("p4", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P5 = register("p5", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P6 = register("p6", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P7 = register("p7", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P8 = register("p8", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P9 = register("p9", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P10 = register("p10", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P11 = register("p11", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static final Block P12 = register("p12", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
     public static void initialize() {}
 }
