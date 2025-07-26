@@ -3,7 +3,7 @@
 	"package": "io.github.PAntomie.cynblockex.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "ExampleClientMixin"
+      "cynblockexClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
