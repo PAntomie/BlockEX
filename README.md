@@ -1,5 +1,5 @@
 # C.Y.N. BlockEX Mod
-
+<u>English</u> <u>[中文](https://github.com/PAntomie/BlockEX/blob/main/README_CN.md)</u>
 ## Overview
 C.Y.N. BlockEX is a mod for Minecraft 1.21.5 using the Fabric mod loader. This mod adds some new blocks to the game. For build variety building in Minecraft
 
