@@ -15,7 +15,6 @@ classes/
 *.iml
 *.ipr
 *.iws
-.run
 
 # vscode
 
@@ -39,3 +38,4 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+/.run/

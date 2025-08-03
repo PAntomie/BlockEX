@@ -5,11 +5,12 @@
 	"name": "C.Y.N. BlockEX",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Antomie-P"
+		"Antomie-P (code)",
+		"Renbing (textures)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/PAntomie/BlockEX-D"
+		"homepage": "https://github.com/PAntomie/BlockEX",
+		"sources": "https://github.com/PAntomie/BlockEX"
 	},
 	"license": "LGPLv3",
 	"icon": "assets/cynblockex/icon.png",
