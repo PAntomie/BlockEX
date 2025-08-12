@@ -18,5 +18,6 @@ public class ModItem {
         return item;
     }
     public static final Item CYN = register("cyn", Item::new, new Item.Settings());
+    public static final Item QJF = register("qjf", Item::new, new Item.Settings());
     public static void initialize() {}
 }
