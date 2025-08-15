@@ -6,7 +6,8 @@
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Antomie-P (code)",
-		"Renbing (textures)"
+		"Renbing (textures)",
+        "DeltaForce (a apart of textures)"
 	],
 	"contact": {
 		"homepage": "https://github.com/PAntomie/BlockEX",
