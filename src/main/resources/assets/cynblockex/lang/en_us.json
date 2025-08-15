@@ -7,5 +7,7 @@
   "item.cynblockex.red_obsidian": "Red Obsidian",
   "item.cynblockex.redux_glowing_obsidian": "Redux Glowing Obsidian",
   "item.cynblockex.qjf": "family",
-  "itemGroup.cynblockex": "C.Y.N."
+  "itemGroup.cynblockex": "C.Y.N.",
+  "message.cynblockex.update_available": "Server's BlockEX Mod is not lastest, remind server manager upgrade it, please"
+
 }

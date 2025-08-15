@@ -7,5 +7,7 @@
   "item.cynblockex.red_obsidian": "红色黑曜石",
   "item.cynblockex.redux_glowing_obsidian": "Redux发光黑曜石",
   "item.cynblockex.qjf": "全家福",
-  "itemGroup.cynblockex": "C.Y.N."
+  "itemGroup.cynblockex": "C.Y.N.",
+  "message.cynblockex.update_available": "服务端BlockEX Mod不为最新，请通知服务器管理员及时更新"
+
 }
