@@ -25,7 +25,7 @@ public class cynblockexMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     private static final String MOD_VERSION_URL = "https://antomie.pages.dev/mod-version.json";
     private static String CURRENT_VERSION;
-    private static boolean isNewVersionAvailable = false;  // 标记是否有新版本可用
+    private static boolean isNewVersionAvailable = false;
 
     @Override
     public void onInitialize() {
