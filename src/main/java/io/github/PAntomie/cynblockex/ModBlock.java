@@ -11,6 +11,8 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
 
 
@@ -47,6 +49,8 @@ public class ModBlock {
     public static final Block P10 = register("p10", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
     public static final Block P11 = register("p11", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
     public static final Block P12 = register("p12", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
-    public static void initialize() {}
     public static final Block P13 = register("p13", Block::new, AbstractBlock.Settings.copy(Blocks.STONE), true);
+    public static void initialize() {}
+
+
 }
