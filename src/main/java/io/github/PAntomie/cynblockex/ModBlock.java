@@ -11,8 +11,6 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.function.Function;
 
 
