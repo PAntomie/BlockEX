@@ -7,11 +7,13 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.function.Function;
 
 
 public class ModItem {
-    public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
+    public static Item register(String name, @NotNull Function<Item.Settings, Item> itemFactory, Item.@NotNull Settings settings) {
         RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("cynblockex", name));
         Item item = itemFactory.apply(settings.registryKey(itemKey));
         Registry.register(Registries.ITEM, itemKey, item);

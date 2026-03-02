@@ -1,6 +1,7 @@
 package io.github.PAntomie.cynblockex;
 
 import com.google.gson.Gson;
+
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.server.network.ServerPlayerEntity;
